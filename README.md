@@ -37,4 +37,3 @@ A stylish and smooth Flutter-based Shoe Store UI. Browse and add your favorite s
    
 bash
    git clone https://github.com/varshithchowdary/sneakersapp-flutter-.git
-   cd ecommerce
