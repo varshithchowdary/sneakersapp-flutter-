@@ -9,7 +9,7 @@ class Mybottom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 20),
+      padding: const EdgeInsets.symmetric(vertical: 10),
       child: GNav(
         mainAxisAlignment: MainAxisAlignment.center,
         color: Colors.grey[400],
@@ -17,7 +17,8 @@ class Mybottom extends StatelessWidget {
         tabActiveBorder: Border.all(color: Colors.white),
         tabBackgroundColor: Colors.grey.shade100,
         tabBorderRadius: 20,
-        onTabChange: (value) => onTabChange?.call(value), // Optional chaining for safety
+        onTabChange: (value) =>
+            onTabChange?.call(value), // Optional chaining for safety
         tabs: const [
           GButton(
             icon: Icons.home,
